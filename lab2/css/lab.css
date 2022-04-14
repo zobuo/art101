@@ -4,6 +4,7 @@ h1 {
   font-family: monospace;
   text-align: center;
 }
+
 p {
   font-size: 40px;
   font-family: Monospace;
@@ -12,16 +13,20 @@ p {
   margin-right: 100px;
   margin-left: 100px;
 }
+
 #content {
   border-style: dashed;
 }
+
 body {
   background-color: #F9B4ED;
 }
+
 img {
   width: 500px;
   height: 400px;
 }
+
 .center {
   display: block;
   margin-left: auto;
