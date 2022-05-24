@@ -7,14 +7,16 @@ h1 {
   border-style: solid;
   padding: 15px;
   background-color: #9FA4C4;
+  font-family: "Brush Script MT", cursive;
+  font-size: 60px;
 }
 
 canvas {
   position: absolute;
   border: 3px solid black;
   background-color: white;
-  width: 1200px;
-  height: 646px;
+  /* width: 1200px;
+  height: 646px; */
   left: 20.1%;
 }
 
@@ -23,9 +25,11 @@ canvas {
   border: 3px solid black;
   padding: 10px;
   width: 260px;
-  height: 400px;
+  height: 381px;
   display: flex;
   flex-direction: column;
+  font-family: "Brush Script MT";
+  font-size: 25px;
 }
 
 #previous {
@@ -34,6 +38,8 @@ canvas {
   padding: 10px;
   width: 260px;
   height: 200px;
+  font-family: "Brush Script MT";
+  font-size: 20px;
 }
 
 #showPopUp {
@@ -42,10 +48,33 @@ canvas {
   width: 100px;
   height: 40px;
   background-color: #9FA4C4;
+  font-family: "Brush Script MT";
+  font-size: 20px;
 }
 
 #closePopUp {
   position: relative; left: 215px; top: 1px;
+}
+
+#lineWidth {
+  width: 50px;
+}
+
+/* #eraser {
+  width: 50px;
+  padding: 2px;
+} */
+
+#clear {
+  width: 50px;
+  font-family: "Brush Script MT";
+  font-size: 20px;
+}
+
+.container#blur.active {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
 }
 
 .center {
